@@ -15,3 +15,4 @@ test('fibonacci of 5 is 5', () => {
 test('fibonacci of 10 is 55', () => {
   expect(fibonacci(10)).toBe(55);
 });
+ // git committed
