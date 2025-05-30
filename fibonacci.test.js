@@ -16,6 +16,10 @@ test('fibonacci of 10 is 55', () => {
   expect(fibonacci(10)).toBe(55);
 });
 
+test('fibonacci of 10 is 55', () => {
+  expect(fibonacci(10)).toBe(56);
+});
+
 test('throws error for negative input', () => {
   expect(() => fibonacci(-1)).toThrow('Input must be a non-negative integer');
 });
